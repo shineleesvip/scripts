@@ -5,7 +5,7 @@
 hostname = i.weread.qq.com
 */
 
-var body = $respone;
+var body = $response;
 var url = $request.url;
 const path = "/pay/memberCardSummary";
 let obj = JSON.parse(body);
